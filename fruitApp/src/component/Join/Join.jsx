@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 let user="";
 
 function Join() {
-  
+   
    const [name,setName]=useState("");
 
    const sendUser = () => {
