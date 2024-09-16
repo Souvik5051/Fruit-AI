@@ -5,7 +5,7 @@ import sendLogo from '../../assets/images/send.png'
 import Message from './Message';
 import ReactScrollToBottom from 'react-scroll-to-bottom'
 
-const ENDPOINT='https://fruit-ai-bujz.onrender.com/'
+const ENDPOINT='https://fruit-ai-psgt.onrender.com/'
 let socket;
 function Chat(){
     

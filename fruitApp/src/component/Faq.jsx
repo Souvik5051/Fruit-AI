@@ -6,7 +6,7 @@ const Faq = () => {
 
   // Fetch FAQs from the backend
   useEffect(() => {
-    axios.get('https://fruit-ai-bujz.onrender.com/faqs')
+    axios.get('https://fruit-ai-psgt.onrender.com/faqs')
       .then(response => setFaqs(response.data.data))
       .catch(error => console.error(error));
   }, []);
